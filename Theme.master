@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Theme.master.cs" Inherits="Theme" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome to Shop TrangBe.Com by Anhdtph01051</title>
+    <link href="images/icon-trangbe.ico" rel="shortcut icon"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="walper" style="width:1027px;height:auto;margin:auto;">
+            <div id="logo">
+                <img src="images/trangbe.com.jpg" />
+            </div>
+            <div id="menu">
+                <ul>
+                  <li><a class="active" href="./Default.aspx">Trang Chủ</a></li>
+                  <li><a href="./gioithieu.aspx">Giới Thiệu</a></li>
+                  <li class="dropdown">
+                    <a href="./sanpham.aspx" class="dropbtn" style="color: #CC0000">Sản Phẩm</a>
+                    <div class="dropdown-content">
+                      <a href="./sanpham.aspx">Quần Áo Nam</a>
+                      <a href="./sanpham.aspx">Quần Áo Nữ</a>
+                      <a href="./sanpham.aspx">Phụ Kiện</a>
+                    </div>
+                  </li>
+                    <li><a href="./huongdan.aspx">Hướng Dẫn</a></li>
+                    <li><a href="./lienhe.aspx">Liên Hệ</a></li>
+                    <li style="float:right"><asp:LinkButton ID="link_dangnhap" runat="server" PostBackUrl="~/login.aspx">Đăng Nhập</asp:LinkButton></li>
+                    <li style="float:right"><asp:LinkButton ID="link_dangky" runat="server" PostBackUrl="~/dangky.aspx">Đăng Ký</asp:LinkButton></li>
+                </ul>
+            </div>
+            
+        <div id="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+            <div id="spaceone" style="width:100%; height:100px;">
+
+            </div>
+          
+    </div>
+        <div id="footer">
+            <div id="textfoter" style="width:50%; margin-top:10px; margin-left:10px; float:left;">
+                <h3 class="widgettitle">Thông Tin</h3>
+                <p class="logo-text">TRANGBE.<span class="main-color">US</span></p>
+                <p>Address: 136 Hoang Ngan - Ha Noi - Viet Nam</p>
+                <p>Phone Call: 0987678999 (Ms.Trang)</p>
+            </div>
+            <div id="textfoter1" style="width:45%; margin-top:10px; margin-right:10px; float:right;">
+                    <h3 class="widgettitle">Mạng Xã Hội</h3>
+                <div class="textwidget">
+                    <a href="#" title="Twitter"><img src="images/tw-icon.png" class="no-display appear"></a>
+                    <a href="#" title="Facebook"><img src="images/fb-icon.png" class="no-display appear"></a>
+                    <a href="#" title="Google Plus"><img src="images/gp-icon.png" class="no-display appear"></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower-foot">
+            <div class="copyright">
+                Copyright © 2016 <a href="#">wWw.TrangBe.Com.</a>
+            </div>
+        </div>
+       
+    </form>
+</body>
+</html>

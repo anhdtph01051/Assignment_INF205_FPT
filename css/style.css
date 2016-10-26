@@ -1,0 +1,328 @@
+﻿body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans',Arial,sans-serif;       
+}
+#logo {
+    height:300px;
+}
+#menu {
+    width:100%;
+    height:auto;
+}
+#content {
+    width:100%;
+    height:auto;
+}
+#footer{
+    width:100%;
+    height:200px;
+    background-color:#19232d;
+    color:#d7dade;
+    font-family:inherit;
+
+}
+#sesion {
+    float:right;
+    width:100%;
+    margin-top:10px;
+    margin-right:10px;
+    text-align:right;
+}
+.ssnamecheck{
+    color:red;
+    font-weight: bold;
+}
+.control{
+    color:red;
+    font-weight: bold;
+    background-color:blue;
+}
+.control1{
+    color:white;
+    font-weight: bold;
+    background-color:red;
+}
+
+/*--------------------------------------------------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fc4a4a;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f11f1f;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fc4a4a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f11f1f}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*--------------------------------------------------------------------*/
+ a:link{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+ 
+        a:active{
+            color: white;
+            text-decoration: none;
+        }
+.widgettitle {
+    font: bold 14px/35px "Open Sans", Arial, sans-serif;
+    color: #c5c7cb;
+    border-bottom: 1px solid #253443;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.logo-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 28px;
+}
+.main-color {
+    color: #e54e53;
+}
+p {
+    margin: 0 0 10px;
+}
+.lower-foot {
+    background: #121a21;
+    color: #8d8e92;
+    font-size: 13px;
+    height:50px;
+}
+.copyright {
+    float:left;
+    margin-top:17px;
+    margin-left:10px;
+}
+
+.menu {
+    float: right;
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+.menu li {
+    float: left;
+    padding-left: 0.5em;
+}
+
+/*-------------------------------------------------------------------------*/
+.textlienhe{
+    font: 18px "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    border-left: 3px solid #e54e53;
+    padding-left: 14px;
+    line-height: 2;
+    margin-bottom: 28px;
+    color:#19232d;
+}
+ .stylelienhe{
+    background: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    border-left: 0;
+    border-right: 0;
+    line-height: 32px;
+    color: #19232d;
+    font-size: 13px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 14px;
+    width:680px;
+}
+ .styletext{
+    color:#19232d;
+}
+ input, textarea, select {
+    background: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    padding: 7px 14px;
+    outline: 0;
+    font-size: 13px;
+    color: #a6a6a6;
+    max-width: 100%;
+}
+ .wpcf7-form-control-wrap {
+    position: relative;
+}
+ textarea {
+    padding: 7px 14px;
+    width: 700px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ /*----------------------------------------------------------------------*/
+.namequanao {
+    color:#627f9a;
+    font-weight:bold;
+        font-size: 90%;
+}
+.price {
+    font-size: 120%;
+    color: #000;
+    font-weight: bold;
+    line-height: 100%;
+}
+/*--------------------------------------------------------------------------*/
+#dangky {
+    background-color:#e4e4e4;
+    width:500px;
+    height:400px;
+    margin:auto;
+    margin-top:50px;
+    text-align:center;
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+}
+.textreg {
+    font-size:30px;
+    font-weight:bold;
+    color:#fc4a4a;
+}
+.link a {
+    color:blue;
+}
+/*----------------------------------------------------------------------*/
+#control {
+    width:100%;
+    height:700px;
+}
+#menucontrol {
+    float:left;
+    width:25%;
+    height:200px;
+}
+#showcontrol {
+    float:right;
+    width:70%;
+    height:500px;
+}
+.buttoncontrol{
+    font-family:"Open Sans", Arial, sans-serif;
+    background-color:#23232e;
+    color:white;
+    width:100%;
+    height:30px;
+    border:none;
+    font-weight:bold;
+}
+.buttoncontrol:hover{
+    font-family:"Open Sans", Arial, sans-serif;
+    background-color:#28f35d !important;
+    color:slateblue;
+    width:100%;
+    height:30px;
+    border:none;
+    font-weight:bold;
+}
+.buttoncontrol:active{
+    font-family:"Open Sans", Arial, sans-serif;
+    background-color:#28f35d !important;
+    color:white;
+    width:100%;
+    height:30px;
+    border:none;
+    font-weight:bold;
+}
+#menu{
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    width:100%;
+    height:40px;
+    background-color:#101017;
+    color:white;
+    text-align:center;
+    font-family:"Open Sans", Arial, sans-serif;
+}
+/*------------------------------------------------------------------*/
+.converttext {
+    font-weight:bold;
+    text-align:center;
+    color:red;
+}
+.buttonedit {
+    width:100px;
+    height:40px;
+    background-color:#23232e;
+    border:none;
+    color:palevioletred;
+    text-align:center;
+    font-family:"Open Sans", Arial, sans-serif;
+}
+.buttonedit:hover {
+    background-color:#15151e;
+    color:white;
+}
+.fontdep {
+    font-family:"Open Sans", Arial, sans-serif;
+    color:#53535e;
+}
+#controlbutton {
+    border-top:solid 1px #d3d3d3;
+    border-bottom:solid 1px #d3d3d3;
+    border-left:solid 1px #d3d3d3;
+    border-right:solid 1px #d3d3d3;
+}
+.chuy {
+    font-weight:bold;
+    color:red;
+    font-family:"Open Sans", Arial, sans-serif;
+    margin-left:10px;
+}
+.hienthi {
+    color:#3c3cad;
+}
