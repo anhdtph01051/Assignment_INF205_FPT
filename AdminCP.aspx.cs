@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 public partial class AdminCP : System.Web.UI.Page
 {
-    SqlConnection conn = new SqlConnection(@"Data Source=.;Initial Catalog=qlbh2;Integrated Security=True");
+    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\fpoly\Desktop\Nhom3_AnhDT_PH01051_AssgimentHT_INF205\Code\Web\Database\QLBH2.mdf;Integrated Security=True;Connect Timeout=30");
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
